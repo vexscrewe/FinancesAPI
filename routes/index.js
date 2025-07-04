@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-const tarefasRoutes = require('./tarefas');
+const transactionsRoutes = require('./transactions');
 
-router.use('/tarefas', tarefasRoutes);
+router.use('/transactions', transactionsRoutes);
 
 module.exports = router;
